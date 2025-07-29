@@ -1,30 +1,42 @@
-⚡ PowerSentry – Smart Charging Socket
 
-“Automatically cuts power when charging is complete – Save energy. Protect your battery.”
 
-PowerSentry is an IoT-based smart socket that eliminates overcharging by intelligently detecting when a device is fully charged and cutting off the power supply.
-Using NodeMCU ESP8266, a relay module, and optional current sensors (ACS712/INA219), it ensures safer, more efficient charging while saving energy and extending battery life.
+---
 
-🔧 Core Features:
+⚡ **PowerSentry – Smart Charging Socket**
+**“Automatically cuts power when charging is complete – Save energy. Protect your battery.”**
 
-Real-time current monitoring to detect full charge
+**PowerSentry** is a smart IoT-based socket that prevents overcharging by cutting off the power supply once a device reaches full charge. Built using **NodeMCU ESP8266**, **Arduino Uno**, and a **relay module**, it ensures safe, efficient, and energy-conscious charging. It can simulate charging behavior or integrate actual current sensors for real-time monitoring, all controllable via the **Blynk** app.
 
-Automatic power cutoff via relay
+---
 
-Optional push notifications via Blynk or Firebase
+🔧 **Core Features**
 
-Easy to prototype, scalable for real-world use
+* Manual ON/OFF control via Blynk (V0)
+* Simulated charging progress with percentage tracking (V4)
+* Automatic relay cutoff at 100% charge
+* Green and Red status indicators (V1, V2)
+* Real-time label updates (V3)
+* Optional current sensor integration (ACS712 / INA219)
 
-🌍 Impact:
+---
 
-Reduces phantom power draw
+🌍 **Impact**
 
-Prevents battery degradation
+* Reduces phantom power usage
+* Prevents battery overcharging and degradation
+* Encourages sustainable and safe charging habits
+* Ideal for homes, hostels, and elderly-friendly automation
 
-Promotes sustainable energy habits
+---
 
-Safe charging for home, hostel, and elderly users
+🛠 **Tech Stack**
 
-🛠 Tech Stack:
+* **Microcontrollers**: NodeMCU ESP8266, Arduino Uno
+* **Relay Control**: 5V Relay Module
+* **Communication**: UART Serial
+* **Interface**: Blynk IoT Dashboard
+* **Optional Sensors**: ACS712 or INA219 (for real-time current detection)
+* **Development Platform**: Arduino IDE, Fritzing (for circuit design)
 
-Arduino IDE · NodeMCU ESP8266 · Relay Module · ACS712 / INA219 · Blynk · Fritzing
+---
+
