@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Ho8aMkWD"
-#define BLYNK_TEMPLATE_NAME "POWERSENTRY12"
-#define BLYNK_AUTH_TOKEN "7-oKoYtuc0vbBE3Dula1sE28oGIpVh7K"
+#define BLYNK_TEMPLATE_ID "TMPL3d6c4fE4I"
+#define BLYNK_TEMPLATE_NAME "PowerSentry"
+#define BLYNK_AUTH_TOKEN "JNgIifxGdQrT5YP8U9lduQpREHzJPvKp"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
