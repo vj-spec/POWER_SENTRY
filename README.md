@@ -10,11 +10,11 @@
 
 🔧 **Core Features**
 
-* Manual ON/OFF control via Blynk (V0)
-* Simulated charging progress with percentage tracking (V4)
+* Manual ON/OFF control via Blynk 
+* Simulated charging progress with percentage tracking 
 * Automatic relay cutoff at 100% charge
-* Green and Red status indicators (V1, V2)
-* Real-time label updates (V3)
+* Green and Red status indicators 
+* Real-time label updates 
 * Optional current sensor integration (ACS712 / INA219)
 
 
