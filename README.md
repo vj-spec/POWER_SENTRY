@@ -1,13 +1,12 @@
 
 
----
+
 
 ⚡ **PowerSentry – Smart Charging Socket**
 **“Automatically cuts power when charging is complete – Save energy. Protect your battery.”**
 
 **PowerSentry** is a smart IoT-based socket that prevents overcharging by cutting off the power supply once a device reaches full charge. Built using **NodeMCU ESP8266**, **Arduino Uno**, and a **relay module**, it ensures safe, efficient, and energy-conscious charging. It can simulate charging behavior or integrate actual current sensors for real-time monitoring, all controllable via the **Blynk** app.
 
----
 
 🔧 **Core Features**
 
@@ -18,7 +17,7 @@
 * Real-time label updates (V3)
 * Optional current sensor integration (ACS712 / INA219)
 
----
+
 
 🌍 **Impact**
 
@@ -27,7 +26,7 @@
 * Encourages sustainable and safe charging habits
 * Ideal for homes, hostels, and elderly-friendly automation
 
----
+
 
 🛠 **Tech Stack**
 
@@ -38,5 +37,4 @@
 * **Optional Sensors**: ACS712 or INA219 (for real-time current detection)
 * **Development Platform**: Arduino IDE, Fritzing (for circuit design)
 
----
 
